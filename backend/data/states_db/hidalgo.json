@@ -1,0 +1,38 @@
+{
+    "_meta": {
+        "estado": "Hidalgo",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Hidalgo",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Hidalgo",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Tula de Allende": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Tula de Allende",
+            "bando": "Bando Municipal de Policía y Buen Gobierno de Tula de Allende",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_auto_generated": true
+        },
+        "Pachuca": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Pachuca",
+            "bando": "Bando de Policía y Gobierno del Municipio de Pachuca",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 11:32:22.260438"
+        },
+        "Tulancingo": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Tulancingo",
+            "bando": "Bando de Policía y Gobierno del Municipio de Tulancingo",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-31 21:34:30.940385"
+        }
+    }
+}

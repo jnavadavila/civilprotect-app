@@ -1,0 +1,31 @@
+{
+    "_meta": {
+        "estado": "Baja California Sur",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Baja California Sur",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Baja California Sur",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Loreto": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Loreto",
+            "bando": "Bando de Policía y Gobierno del Municipio de Loreto",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-25 19:10:45.932965"
+        },
+        "Los Cabos": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Los Cabos",
+            "bando": "Bando de Policía y Gobierno del Municipio de Los Cabos",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 00:18:49.222507"
+        }
+    }
+}

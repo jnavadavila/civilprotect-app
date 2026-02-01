@@ -1,0 +1,23 @@
+{
+    "_meta": {
+        "estado": "Durango",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Durango",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Durango",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Lerdo": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Lerdo",
+            "bando": "Bando de Policía y Gobierno del Municipio de Lerdo",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 19:55:23.663003"
+        }
+    }
+}

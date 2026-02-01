@@ -1,0 +1,24 @@
+VERSION: 4.5.2 (GOLD RELEASE)
+DATE: 2026-01-31
+STATUS: PRODUCTION READY (GO-LIVE READY)
+
+CHANGELOG RECIENTE:
+-------------------
+[V4.5.2] - 2026-01-31
+- HARDENING: Implementación de ProxyHeadersMiddleware para IP real.
+- HARDENING: Script de Generación de Secretos (.env.prod).
+- HARDENING: Integración de Certbot (SSL) y script setup_ssl.bat.
+- DATA: Script ETL para migración SQLite -> PostgreSQL.
+
+[V4.5.1] - 2026-01-31
+- OPS: Deployment a Producción (Docker Compose Prod).
+- OPS: Checklist de despliegue.
+- OPS: Configuración de Nginx Gateway.
+
+[V4.5.0] - 2026-01-31
+- CORE: Migración a PostgreSQL completa.
+- CORE: Sistema de Logging Estructurado y Sentry.
+- DOCS: Documentación integral (Architecture, User Guide, Dev Guide).
+
+HASH DE INTEGRIDAD:
+(Este archivo marca un punto de restauración estable)

@@ -1,0 +1,16 @@
+{
+    "tipo_inmueble": "Restaurante",
+    "m2_construccion": 500,
+    "niveles": 2,
+    "aforo": 100,
+    "aforo_autorizado": 120,
+    "trabajadores": 15,
+    "municipio": "Cuautla",
+    "estado": "Morelos",
+    "has_gas": true,
+    "has_transformer": false,
+    "has_machine_room": false,
+    "has_substation": false,
+    "has_special_inst": false,
+    "has_pool": false
+}

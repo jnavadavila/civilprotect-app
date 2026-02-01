@@ -1,0 +1,23 @@
+{
+    "_meta": {
+        "estado": "Oaxaca",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Oaxaca",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Oaxaca",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Santa María Huatulco": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Santa María Huatulco",
+            "bando": "Bando de Policía y Gobierno del Municipio de Santa María Huatulco",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-25 22:50:18.914440"
+        }
+    }
+}

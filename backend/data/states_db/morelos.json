@@ -1,0 +1,26 @@
+{
+    "_meta": {
+        "estado": "Morelos",
+        "last_updated": "2026-01-25"
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil para el Estado de Morelos",
+        "art_obligatorio": "Art. 51",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Morelos",
+        "art_reglamento": "Art. 45"
+    },
+    "municipios": {
+        "Cuautla": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Cuautla",
+            "bando": "Bando de Policía y Gobierno Municipal de Cuautla",
+            "art_inspeccion": "Art. 72 (Facultades de Verificación)",
+            "art_bando": "Art. 14 Fracc. V (Seguridad Pública)"
+        },
+        "Cuernavaca": {
+            "reglamento": "Reglamento de Protección Civil de Cuernavaca",
+            "bando": "Bando Municipal de Cuernavaca",
+            "art_inspeccion": "Art. 98",
+            "art_bando": "Art. 22"
+        }
+    }
+}

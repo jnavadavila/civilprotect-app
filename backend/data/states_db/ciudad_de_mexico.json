@@ -1,0 +1,31 @@
+{
+    "_meta": {
+        "estado": "Ciudad de México",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Ciudad de México",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Ciudad de México",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Miguel Hidalgo": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Miguel Hidalgo",
+            "bando": "Bando de Policía y Gobierno del Municipio de Miguel Hidalgo",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-25 21:22:23.169126"
+        },
+        "Cuauhtémoc": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Cuauhtémoc",
+            "bando": "Bando de Policía y Gobierno del Municipio de Cuauhtémoc",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 21:35:51.491803"
+        }
+    }
+}

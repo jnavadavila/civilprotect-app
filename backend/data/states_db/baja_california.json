@@ -1,0 +1,23 @@
+{
+    "_meta": {
+        "estado": "Baja California",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Baja California",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Baja California",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Ensenada": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Ensenada",
+            "bando": "Bando de Policía y Gobierno del Municipio de Ensenada",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-25 22:03:19.435462"
+        }
+    }
+}

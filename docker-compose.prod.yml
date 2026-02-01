@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: civilprotect-db-prod
+    restart: always
+    environment:
+      POSTGRES_DB: civilprotect
+      POSTGRES_USER: ${DB_USER:-user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-pass}
+    volumes:
+      - postgres_data_prod:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER:-user} -d civilprotect" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    container_name: civilprotect-backend-prod
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql://${DB_USER:-user}:${DB_PASSWORD:-pass}@db:5432/civilprotect
+      - ENV=production
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-changeme_in_prod}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - REFRESH_TOKEN_EXPIRE_DAYS=7
+      - LOG_LEVEL=WARNING
+      - ALLOWED_ORIGINS=https://civilprotect.local,https://localhost
+      - PDF_OUTPUT_DIR=/app/pdfs
+      - SENTRY_DSN=${SENTRY_DSN_BACKEND}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend/pdfs:/app/pdfs
+      - ./backend/logs:/app/logs
+      - ./backend/data/civilprotect.db:/app/data/civilprotect.db:ro
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/').read()" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_API_URL=/api
+        - REACT_APP_SENTRY_DSN=${SENTRY_DSN_FRONTEND}
+    container_name: civilprotect-frontend-prod
+    restart: always
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./nginx_gateway/certs:/etc/nginx/certs
+      - ./nginx_gateway/www:/var/www/certbot
+
+  nginx:
+    image: nginx:alpine
+    container_name: civilprotect-gateway
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx_gateway/conf.d:/etc/nginx/conf.d
+      - ./nginx_gateway/certs:/etc/nginx/certs
+      - ./nginx_gateway/www:/var/www/certbot
+    depends_on:
+      - frontend
+      - backend
+
+volumes:
+  postgres_data_prod:

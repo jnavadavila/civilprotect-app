@@ -1,0 +1,39 @@
+{
+    "_meta": {
+        "estado": "Coahuila",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Coahuila",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Coahuila",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Piedras Negras": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Piedras Negras",
+            "bando": "Bando de Policía y Gobierno del Municipio de Piedras Negras",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 11:01:03.436617"
+        },
+        "Torreón": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Torreón",
+            "bando": "Bando de Policía y Gobierno del Municipio de Torreón",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 11:04:30.459783"
+        },
+        "Monclova": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Monclova",
+            "bando": "Bando de Policía y Gobierno del Municipio de Monclova",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 20:43:06.164115"
+        }
+    }
+}

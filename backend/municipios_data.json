@@ -1,0 +1,1869 @@
+{
+  "estados": [
+    {
+      "nombre": "Aguascalientes",
+      "municipios": [
+        {
+          "nombre": "Aguascalientes",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Jesús María",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Calvillo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Baja California",
+      "municipios": [
+        {
+          "nombre": "Tijuana",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Mexicali",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Ensenada",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Playas de Rosarito",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": true,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Tecate",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Baja California Sur",
+      "municipios": [
+        {
+          "nombre": "La Paz",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Los Cabos",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Loreto",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Mulegé",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Campeche",
+      "municipios": [
+        {
+          "nombre": "Campeche",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Carmen",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Champotón",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Chiapas",
+      "municipios": [
+        {
+          "nombre": "Tuxtla Gutiérrez",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tapachula",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": true,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "San Cristóbal de las Casas",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Palenque",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Comitán de Domínguez",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Chihuahua",
+      "municipios": [
+        {
+          "nombre": "Chihuahua",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Juárez",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Delicias",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Cuauhtémoc",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Hidalgo del Parral",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Creel (Bocoyna)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Ciudad de México",
+      "municipios": [
+        {
+          "nombre": "CDMX (General)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Benito Juárez",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Cuauhtémoc",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Miguel Hidalgo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Venustiano Carranza",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Azcapotzalco",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Coahuila",
+      "municipios": [
+        {
+          "nombre": "Saltillo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Torreón",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Monclova",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Piedras Negras",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Acuña",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Parras",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Colima",
+      "municipios": [
+        {
+          "nombre": "Colima",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Manzanillo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Tecomán",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Durango",
+      "municipios": [
+        {
+          "nombre": "Durango",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Gómez Palacio",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Lerdo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Guanajuato",
+      "municipios": [
+        {
+          "nombre": "León",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Irapuato",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Celaya",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Salamanca",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Guanajuato",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "San Miguel de Allende",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Silao",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Guerrero",
+      "municipios": [
+        {
+          "nombre": "Acapulco",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Zihuatanejo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Chilpancingo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Taxco de Alarcón",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Hidalgo",
+      "municipios": [
+        {
+          "nombre": "Pachuca",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tulancingo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tula de Allende",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Huasca de Ocampo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Jalisco",
+      "municipios": [
+        {
+          "nombre": "Guadalajara",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Zapopan",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Puerto Vallarta",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Tlaquepaque",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tlajomulco de Zúñiga",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tequila",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Lagos de Moreno",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "México (Edomex)",
+      "municipios": [
+        {
+          "nombre": "Toluca",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Naucalpan",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tlalnepantla",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Ecatepec",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Nezahualcóyotl",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Zumpango (AIFA)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Valle de Bravo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Teotihuacán",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Michoacán",
+      "municipios": [
+        {
+          "nombre": "Morelia",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Uruapan",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Lázaro Cárdenas",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Pátzcuaro",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Zamora",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Morelos",
+      "municipios": [
+        {
+          "nombre": "Cuernavaca",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Cuautla",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tepoztlán",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Jojutla (Tequesquitengo)",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Nayarit",
+      "municipios": [
+        {
+          "nombre": "Tepic",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Bahía de Banderas",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "San Blas",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Compostela (Sayulita)",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Nuevo León",
+      "municipios": [
+        {
+          "nombre": "Monterrey",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "San Pedro Garza García",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Apodaca",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Guadalupe",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "San Nicolás de los Garza",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Santa Catarina",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Linares",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Oaxaca",
+      "municipios": [
+        {
+          "nombre": "Oaxaca de Juárez",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Santa María Huatulco",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "San Pedro Mixtepec (Puerto Escondido)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Salina Cruz",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "San Juan Bautista Tuxtepec",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Puebla",
+      "municipios": [
+        {
+          "nombre": "Puebla",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tehuacán",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "San Andrés Cholula",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Huejotzingo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Zacatlán",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Querétaro",
+      "municipios": [
+        {
+          "nombre": "Querétaro",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "El Marqués",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "San Juan del Río",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tequisquiapan",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Quintana Roo",
+      "municipios": [
+        {
+          "nombre": "Benito Juárez (Cancún)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Solidaridad (Playa del Carmen)",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Tulum",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Cozumel",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Othón P. Blanco (Chetumal)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": true,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Bacalar",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "San Luis Potosí",
+      "municipios": [
+        {
+          "nombre": "San Luis Potosí",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Soledad de Graciano Sánchez",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Ciudad Valles",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Real de Catorce",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Sinaloa",
+      "municipios": [
+        {
+          "nombre": "Culiacán",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Mazatlán",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Ahome (Los Mochis)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Guasave",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Sonora",
+      "municipios": [
+        {
+          "nombre": "Hermosillo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Cajeme (Cd. Obregón)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Nogales",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Guaymas",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Puerto Peñasco",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Tabasco",
+      "municipios": [
+        {
+          "nombre": "Centro (Villahermosa)",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Cárdenas",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Paraíso (Dos Bocas)",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Tamaulipas",
+      "municipios": [
+        {
+          "nombre": "Tampico",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Reynosa",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Matamoros",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Nuevo Laredo",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": true,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Victoria",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Altamira",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Tlaxcala",
+      "municipios": [
+        {
+          "nombre": "Tlaxcala",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Apizaco",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Huamantla",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Veracruz",
+      "municipios": [
+        {
+          "nombre": "Veracruz",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Boca del Río",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Xalapa",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Coatzacoalcos",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Poza Rica",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Córdoba",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Orizaba",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Tuxpan",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Yucatán",
+      "municipios": [
+        {
+          "nombre": "Mérida",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Valladolid",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Progreso",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": true
+          }
+        },
+        {
+          "nombre": "Izamal",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Zacatecas",
+      "municipios": [
+        {
+          "nombre": "Zacatecas",
+          "metadata": {
+            "has_aeropuerto": true,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Guadalupe",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Fresnillo",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": false,
+            "is_pueblo_magico": false,
+            "is_zona_industrial": true,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        },
+        {
+          "nombre": "Jerez",
+          "metadata": {
+            "has_aeropuerto": false,
+            "is_polo_turistico": true,
+            "is_pueblo_magico": true,
+            "is_zona_industrial": false,
+            "is_frontera": false,
+            "is_puerto": false
+          }
+        }
+      ]
+    }
+  ]
+}

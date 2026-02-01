@@ -1,0 +1,47 @@
+{
+    "_meta": {
+        "estado": "Chihuahua",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Chihuahua",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Chihuahua",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "Cuauhtémoc": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Cuauhtémoc",
+            "bando": "Bando de Policía y Gobierno del Municipio de Cuauhtémoc",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-25 02:35:58.118635"
+        },
+        "Juárez": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Juárez",
+            "bando": "Bando de Policía y Gobierno del Municipio de Juárez",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 00:03:35.182596"
+        },
+        "Creel (Bocoyna)": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Creel (Bocoyna)",
+            "bando": "Bando de Policía y Gobierno del Municipio de Creel (Bocoyna)",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 19:53:56.740213"
+        },
+        "Delicias": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Delicias",
+            "bando": "Bando de Policía y Gobierno del Municipio de Delicias",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 20:48:58.540561"
+        }
+    }
+}

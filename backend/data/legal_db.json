@@ -1,0 +1,730 @@
+{
+    "state_laws": {
+        "Aguascalientes": {
+            "ley": "Ley de Protección Civil del Estado de Aguascalientes",
+            "art_pipc": "Art. 68",
+            "text_pipc": "Artículo 68.- Los propietarios, administradores o encargados de los inmuebles... deberán elaborar un Programa Interno de Protección Civil que contemple medidas de seguridad...",
+            "reg": "Reglamento de la Ley de Protección Civil de Aguascalientes",
+            "art_reg": "Art. 45 (Requisitos PIPC)",
+            "term_responsiva": "Carta de Corresponsabilidad de Consultor",
+            "term_estructural": "Constancia de Seguridad Estructural"
+        },
+        "Baja California": {
+            "ley": "Ley de Protección Civil y Gestión Integral de Riesgos de BC",
+            "art_pipc": "Art. 54",
+            "text_pipc": "Artículo 54.- Las unidades internas de protección civil deberán... presentar ante la autoridad competente el Programa Interno correspondiente...",
+            "reg": "Reglamento de la Ley de Protección Civil de Baja California",
+            "art_reg": "Art. 32 (Programa Interno)",
+            "term_responsiva": "Carta de Corresponsabilidad (Tercer Acreditado)",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Baja California Sur": {
+            "ley": "Ley de Protección Civil y Gestión de Riesgos de B.C.S.",
+            "art_pipc": "Art. 34",
+            "text_pipc": "Artículo 34.- Es obligación de los particulares... realizar acciones de prevención a través de un Programa Interno...",
+            "reg": "Reglamento de la Ley de PC de B.C.S.",
+            "art_reg": "Art. 28 (Integración)",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Técnico Estructural"
+        },
+        "Campeche": {
+            "ley": "Ley de Protección Civil del Estado de Campeche",
+            "art_pipc": "Art. 41",
+            "text_pipc": "Artículo 41.- Los establecimientos de afluencia masiva están obligados a contar con un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de PC de Campeche",
+            "art_reg": "Art. 30",
+            "term_responsiva": "Carta Responsiva del Perito",
+            "term_estructural": "Dictamen de Estabilidad Estructural"
+        },
+        "Chiapas": {
+            "ley": "Ley de Protección Civil del Estado de Chiapas",
+            "art_pipc": "Art. 62",
+            "text_pipc": "Artículo 62.- Todo inmueble público o privado... deberá elaborar e implementar un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de PC de Chiapas",
+            "art_reg": "Art. 88",
+            "term_responsiva": "Dictamen del Profesional Acreditado",
+            "term_estructural": "Dictamen de Riesgo Estructural"
+        },
+        "Chihuahua": {
+            "ley": "Ley de Protección Civil del Estado de Chihuahua",
+            "art_pipc": "Art. 48",
+            "text_pipc": "Artículo 48.- Los sujetos obligados deberán presentar el Programa Interno validado por un consultor registrado...",
+            "reg": "Reglamento de la Ley de Protección Civil de Chihuahua",
+            "art_reg": "Art. 40",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Constancia de Seguridad Estructural"
+        },
+        "Ciudad de México": {
+            "ley": "Ley de Gestión Integral de Riesgos y PC CDMX",
+            "art_pipc": "Art. 58",
+            "text_pipc": "Artículo 58.- Los obligados... deberán elaborar un Programa Interno de Protección Civil, conforme a los Términos de Referencia expedidos...",
+            "reg": "Reglamento de la Ley de Gestión Integral de Riesgos CDMX",
+            "art_reg": "Art. 54 (Términos de Referencia)",
+            "term_responsiva": "Carta de Responsabilidad de Tercer Acreditado",
+            "term_estructural": "Constancia de Seguridad Estructural (CSE)"
+        },
+        "Coahuila": {
+            "ley": "Ley de Protección Civil para el Estado de Coahuila",
+            "art_pipc": "Art. 29",
+            "text_pipc": "Artículo 29.- Las unidades internas operarán los Programas Internos de Protección Civil en los inmuebles...",
+            "reg": "Reglamento de Protección Civil de Coahuila",
+            "art_reg": "Art. 22",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Colima": {
+            "ley": "Ley de Protección Civil del Estado de Colima",
+            "art_pipc": "Art. 37",
+            "text_pipc": "Artículo 37.- Los responsables de edificaciones... deberán contar con un Programa Interno de Protección Civil autorizado...",
+            "reg": "Reglamento de la Ley de Protección Civil de Colima",
+            "art_reg": "Art. 20",
+            "term_responsiva": "Responsiva Técnica",
+            "term_estructural": "Peritaje Estructural"
+        },
+        "Durango": {
+            "ley": "Ley de Protección Civil del Estado de Durango",
+            "art_pipc": "Art. 44",
+            "text_pipc": "Artículo 44.- Los establecimientos mercantiles e industriales... están obligados a elaborar su Programa Interno...",
+            "reg": "Reglamento de la Ley de Protección Civil de Durango",
+            "art_reg": "Art. 35",
+            "term_responsiva": "Carta Responsiva de Consultor Externo",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Guanajuato": {
+            "ley": "Ley de Protección Civil para el Estado de Guanajuato",
+            "art_pipc": "Art. 40",
+            "text_pipc": "Artículo 40.- El Programa Interno de Protección Civil es el instrumento de planeación... que debe implementarse en cada inmueble...",
+            "reg": "Reglamento de la Ley de PC de Guanajuato",
+            "art_reg": "Art. 55",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Guerrero": {
+            "ley": "Ley de Protección Civil del Estado de Guerrero (Ley 656)",
+            "art_pipc": "Art. 55",
+            "text_pipc": "Artículo 55.- Los organismos públicos y privados... estructurarán sus Unidades Internas y elaborarán sus Programas Internos...",
+            "reg": "Reglamento de la Ley de Protección Civil de Guerrero",
+            "art_reg": "Art. 42",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Hidalgo": {
+            "ley": "Ley de Protección Civil del Estado de Hidalgo",
+            "art_pipc": "Art. 72",
+            "text_pipc": "Artículo 72.- Quienes administren o sean poseedores de inmuebles, deberán elaborar y aplicar su Programa Interno...",
+            "reg": "Reglamento de la Ley de Protección Civil de Hidalgo",
+            "art_reg": "Art. 60",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Jalisco": {
+            "ley": "Ley del Sistema Estatal de Protección Civil de Jalisco",
+            "art_pipc": "Art. 24",
+            "text_pipc": "Artículo 24.- Los sujetos obligados deberán contar con una Unidad Interna de Protección Civil y elaborar el Programa Interno respectivo...",
+            "reg": "Reglamento de la Ley Estatal de Protección Civil de Jalisco",
+            "art_reg": "Art. 15 (Registro UEPCJ)",
+            "term_responsiva": "Carta de Corresponsabilidad (Unidad Interna)",
+            "term_estructural": "Dictamen Estructural (Perito Padrón UEPCJ)"
+        },
+        "Estado de México": {
+            "ley": "Libro Sexto del Código Administrativo del EdoMex",
+            "art_pipc": "Art. 6.14",
+            "text_pipc": "Artículo 6.14.- Las unidades económicas deberán contar con un Programa Interno Específico de Protección Civil...",
+            "reg": "Reglamento del Libro Sexto del Código Administrativo del EdoMex",
+            "art_reg": "Art. 58 (Vistos Buenos)",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Michoacán": {
+            "ley": "Ley de Protección Civil del Estado de Michoacán",
+            "art_pipc": "Art. 46",
+            "text_pipc": "Artículo 46.- Es obligatorio para las empresas... disponer de un Programa Interno de Protección Civil autorizado...",
+            "reg": "Reglamento de la Ley de PC de Michoacán",
+            "art_reg": "Art. 30",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Morelos": {
+            "ley": "Ley de Protección Civil para el Estado de Morelos",
+            "art_pipc": "Art. 51",
+            "text_pipc": "Artículo 51.- Los responsables de la administración de inmuebles... instrumentarán un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Morelos",
+            "art_reg": "Art. 45",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Constancia de Seguridad Estructural"
+        },
+        "Nayarit": {
+            "ley": "Ley de Protección Civil para el Estado de Nayarit",
+            "art_pipc": "Art. 33",
+            "text_pipc": "Artículo 33.- Las dependencias, entidades e instituciones privadas... deberán elaborar el Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Nayarit",
+            "art_reg": "Art. 25",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Nuevo León": {
+            "ley": "Ley de Protección Civil del Estado de Nuevo León",
+            "art_pipc": "Art. 18",
+            "text_pipc": "Artículo 18.- Los administradores y propietarios... deberán contar con un Programa Interno de Protección Civil, elaborado por un Consultor...",
+            "reg": "Reglamento de la Ley de Protección Civil de NL",
+            "art_reg": "Art. 52 (Consultores)",
+            "term_responsiva": "Carta Responsiva de Consultor Externo",
+            "term_estructural": "Dictamen Estructural y/o Visto Bueno"
+        },
+        "Oaxaca": {
+            "ley": "Ley de Protección Civil de Oaxaca",
+            "art_pipc": "Art. 27",
+            "text_pipc": "Artículo 27.- Las personas físicas o morales... deberán elaborar un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Oaxaca",
+            "art_reg": "Art. 19",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Puebla": {
+            "ley": "Ley del Sistema Estatal de PC de Puebla",
+            "art_pipc": "Art. 49",
+            "text_pipc": "Artículo 49.- Los responsables de los inmuebles... están obligados a elaborar, implementar y mantener actualizado su Programa Interno...",
+            "reg": "Reglamento de la Ley del Sistema Estatal de PC de Puebla",
+            "art_reg": "Art. 38",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Querétaro": {
+            "ley": "Ley de Protección Civil del Estado de Querétaro",
+            "art_pipc": "Art. 60",
+            "text_pipc": "Artículo 60.- Los sujetos obligados deberán contar con un Programa Interno de Protección Civil autorizado por la Coordinación Estatal...",
+            "reg": "Reglamento de la Ley de Protección Civil de Querétaro",
+            "art_reg": "Art. 55 (Visto Bueno)",
+            "term_responsiva": "Carta de Corresponsabilidad (Visto Bueno)",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Quintana Roo": {
+            "ley": "Ley de Protección Civil del Estado de Quintana Roo",
+            "art_pipc": "Art. 22",
+            "text_pipc": "Artículo 22.- Es obligación de los propietarios... contar con un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Quintana Roo",
+            "art_reg": "Art. 18",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Constancia de Seguridad Estructural"
+        },
+        "San Luis Potosí": {
+            "ley": "Ley del Sistema de PC de San Luis Potosí",
+            "art_pipc": "Art. 38",
+            "text_pipc": "Artículo 38.- Los inmuebles e instalaciones fijas y móviles... deberán contar con un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley del Sistema de PC de San Luis Potosí",
+            "art_reg": "Art. 33",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Sinaloa": {
+            "ley": "Ley de Protección Civil para el Estado de Sinaloa",
+            "art_pipc": "Art. 50",
+            "text_pipc": "Artículo 50.- Las unidades internas de protección civil... elaborarán el Programa Interno correspondiente...",
+            "reg": "Reglamento de la Ley de Protección Civil de Sinaloa",
+            "art_reg": "Art. 41",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Sonora": {
+            "ley": "Ley de Protección Civil para el Estado de Sonora (Ley 19)",
+            "art_pipc": "Art. 25",
+            "text_pipc": "Artículo 25.- Los obligados deberán elaborar y presentar para su aprobación el Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Sonora",
+            "art_reg": "Art. 22",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Tabasco": {
+            "ley": "Ley de Protección Civil del Estado de Tabasco",
+            "art_pipc": "Art. 43",
+            "text_pipc": "Artículo 43.- Todo establecimiento... deberá contar con un Programa Interno de Protección Civil autorizado...",
+            "reg": "Reglamento de la Ley de Protección Civil de Tabasco",
+            "art_reg": "Art. 36",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Tamaulipas": {
+            "ley": "Ley de Protección Civil para el Estado de Tamaulipas",
+            "art_pipc": "Art. 36",
+            "text_pipc": "Artículo 36.- El Programa Interno de Protección Civil es el instrumento de planeación... obligatorio para...",
+            "reg": "Reglamento de la Ley de Protección Civil de Tamaulipas",
+            "art_reg": "Art. 29",
+            "term_responsiva": "Carta de Corresponsabilidad (Consultor)",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        },
+        "Tlaxcala": {
+            "ley": "Ley de Protección Civil para el Estado de Tlaxcala",
+            "art_pipc": "Art. 31",
+            "text_pipc": "Artículo 31.- Los responsables de la administración... instrumentarán un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Tlaxcala",
+            "art_reg": "Art. 25",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Veracruz": {
+            "ley": "Ley de PC y Reducción del Riesgo de Desastres (Ley 856)",
+            "art_pipc": "Art. 66",
+            "text_pipc": "Artículo 66.- Los sujetos obligados deberán elaborar, implementar y operar su Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley 856 de PC Veracruz",
+            "art_reg": "Art. 58",
+            "term_responsiva": "Carta de Corresponsabilidad de Tercer Acreditado",
+            "term_estructural": "Dictamen Técnico de Riesgo"
+        },
+        "Yucatán": {
+            "ley": "Ley de Protección Civil del Estado de Yucatán",
+            "art_pipc": "Art. 42",
+            "text_pipc": "Artículo 42.- Los propietarios o poseedores... deberán contar con un Programa Interno de Protección Civil...",
+            "reg": "Reglamento de la Ley de Protección Civil de Yucatán",
+            "art_reg": "Art. 35",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "Zacatecas": {
+            "ley": "Ley de Protección Civil del Estado de Zacatecas",
+            "art_pipc": "Art. 39",
+            "text_pipc": "Artículo 39.- El Programa Interno de Protección Civil deberá ser elaborado por un Consultor Registrado...",
+            "reg": "Reglamento de la Ley de Protección Civil de Zacatecas",
+            "art_reg": "Art. 32",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen Estructural"
+        },
+        "default": {
+            "ley": "Ley General de Protección Civil (Supletoria)",
+            "art_pipc": "Art. 39",
+            "reg": "Reglamento de la Ley General de Protección Civil",
+            "art_reg": "Art. 74",
+            "term_responsiva": "Carta de Corresponsabilidad",
+            "term_estructural": "Dictamen de Seguridad Estructural"
+        }
+    },
+    "risk_config": {
+        "Ciudad de México": "Términos de Referencia TR-SGIRPC (Vulnerabilidad Física, Social y de Procesos)",
+        "Nuevo León": "Método Mosler / Meseri (Enfoque Industrial y Materiales Peligrosos)",
+        "Jalisco": "Método Mosler / Meseri (Enfoque Industrial)",
+        "Estado de México": "Método Mosler simplificado / Matriz de Riesgos",
+        "Guanajuato": "Método Mosler (Análisis de Riesgos Tipo Industrial)",
+        "Querétaro": "Método Mosler / Análisis de Riesgo Operativo",
+        "Veracruz": "Análisis de Riesgo con énfasis Hidrometeorológico (CENAPRED)",
+        "Quintana Roo": "Análisis de Riesgo (Huracanes y Ciclones Tropicales)",
+        "Baja California Sur": "Análisis de Riesgo Hidrometeorológico",
+        "Guerrero": "Análisis de Riesgo Sísmico e Hidrometeorológico",
+        "default": "Metodología General CENAPRED (Identificación de Peligros y Vulnerabilidad)"
+    },
+    "guide_structure": [
+        {
+            "capitulo": "I. Datos Generales y Jurídicos",
+            "items": [
+                {
+                    "req": "Acta Constitutiva / Constancia de Situación Fiscal",
+                    "fundamento": "Formalidad Jurídica"
+                },
+                {
+                    "req": "Acreditación del Representante Legal (Poder Notarial)",
+                    "fundamento": "Formalidad Jurídica"
+                },
+                {
+                    "req": "Póliza de Seguro de Responsabilidad Civil (Vigente)",
+                    "fundamento": "Art. 76 Reglamento LGPC"
+                },
+                {
+                    "req": "Carta de Corresponsabilidad del Tercer Acreditado",
+                    "fundamento": "Reglamento Local"
+                },
+                {
+                    "req": "Licencia de Funcionamiento / Uso de Suelo",
+                    "fundamento": "Ley de Establecimientos Mercantiles"
+                }
+            ]
+        },
+        {
+            "capitulo": "II. Planos y Análisis de Riesgo",
+            "items": [
+                {
+                    "req": "Plano Arquitectónico (Distribución y Metros Cuadrados)",
+                    "fundamento": "Planos As-Built"
+                },
+                {
+                    "req": "Plano de Conjunto (Colindancias y Riesgos Externos)",
+                    "fundamento": "Análisis de Riesgo Externo"
+                },
+                {
+                    "req": "Plano de Equipamiento (Extintores, Detectores, Botiquines)",
+                    "fundamento": "NOM-002-STPS / NOM-003-SEGOB"
+                },
+                {
+                    "req": "Plano de Rutas de Evacuación y Puntos de Reunión",
+                    "fundamento": "NOM-003-SEGOB"
+                },
+                {
+                    "req": "Análisis de Riesgos (Método Mosler, Meseri o Mapa de Riesgos)",
+                    "fundamento": "Art. 39 LGPC"
+                }
+            ]
+        },
+        {
+            "capitulo": "III. Programas de Protección Civil (Subprogramas)",
+            "items": [
+                {
+                    "req": "Subprograma de Prevención: Organización, Documentación y Riesgos",
+                    "fundamento": "Guía Técnica"
+                },
+                {
+                    "req": "Subprograma de Auxilio: Protocolos de Emergencia (Sismo, Incendio, Amenaza)",
+                    "fundamento": "Guía Técnica"
+                },
+                {
+                    "req": "Subprograma de Recuperación: Vuelta a la Normalidad y Evaluación",
+                    "fundamento": "Guía Técnica"
+                }
+            ]
+        },
+        {
+            "capitulo": "IV. Capacitación y Brigadas",
+            "items": [
+                {
+                    "req": "Acta de Conformación de la Unidad Interna de PC (UIPC)",
+                    "fundamento": "Art. 40 LGPC"
+                },
+                {
+                    "req": "Constancias de Capacitación (DC-3) de las 4 Brigadas Básicas",
+                    "fundamento": "NOM-002-STPS / Art. 153 LFT"
+                },
+                {
+                    "req": "Cronograma Anual de Simulacros",
+                    "fundamento": "Art. 79 Reglamento LGPC"
+                }
+            ]
+        },
+        {
+            "capitulo": "V. Dictámenes Estructurales y de Instalaciones",
+            "items": [
+                {
+                    "req": "Constancia de Seguridad Estructural (Firmada por DRO)",
+                    "fundamento": "Reglamento de Construcciones"
+                },
+                {
+                    "req": "Dictamen de Instalaciones Eléctricas (UVIE / Responsiva)",
+                    "fundamento": "NOM-001-SEDE / NOM-029-STPS"
+                },
+                {
+                    "req": "Dictamen de Instalaciones de Gas (Si aplica)",
+                    "fundamento": "NOM-004-SEDG"
+                }
+            ]
+        }
+    ],
+    "specific_noms": {
+        "NOM-002-STPS-2010": {
+            "titulo": "Prevención y protección contra incendios",
+            "puntos_revision": [
+                {
+                    "id": "002_1",
+                    "desc": "Estudio de clasificación de riesgo de incendio (Carga de Fuego)",
+                    "art": "5.3 y Apéndice A"
+                },
+                {
+                    "id": "002_2",
+                    "desc": "Croquis/Plano con extintores, rutas, salidas y detectores",
+                    "art": "5.2"
+                },
+                {
+                    "id": "002_3",
+                    "desc": "Acta de integración de la brigada contra incendio (Nombres y Firmas)",
+                    "art": "5.10"
+                },
+                {
+                    "id": "002_4",
+                    "desc": "Constancias de capacitación de la brigada (DC-3 o Acreditación)",
+                    "art": "5.11"
+                },
+                {
+                    "id": "002_5",
+                    "desc": "Programa anual de revisión mensual a extintores y detectores",
+                    "art": "5.5"
+                },
+                {
+                    "id": "002_6",
+                    "desc": "Registro de simulacros de incendio (al menos uno al año)",
+                    "art": "5.12"
+                }
+            ]
+        },
+        "NOM-154-SCFI-2005": {
+            "titulo": "Mantenimiento y recarga de extintores",
+            "puntos_revision": [
+                {
+                    "id": "154_1",
+                    "desc": "Dictamen de cumplimiento de proveedor (Collarín y Holograma vigente)",
+                    "art": "Gral"
+                }
+            ]
+        },
+        "NOM-001-STPS-2008": {
+            "titulo": "Edificios, locales, instalaciones y áreas en los centros de trabajo",
+            "puntos_revision": [
+                {
+                    "id": "001S_1",
+                    "desc": "Pisos, techos y paredes en condiciones seguras",
+                    "art": "7.1"
+                },
+                {
+                    "id": "001S_2",
+                    "desc": "Escaleras con ancho mínimo de 1.20m, huella min 25cm, peralte max 23cm",
+                    "art": "7.4 y 7.5"
+                },
+                {
+                    "id": "001S_3",
+                    "desc": "Rampas para personas con discapacidad (Pendiente max 8%)",
+                    "art": "7.6 y 9.1"
+                },
+                {
+                    "id": "001S_4",
+                    "desc": "Escaleras de emergencia exteriores (si aplica por altura)",
+                    "art": "7.8"
+                }
+            ]
+        },
+        "NOM-003-SEGOB-2011": {
+            "titulo": "Señales y avisos para PC",
+            "puntos_revision": [
+                {
+                    "id": "003_1",
+                    "desc": "Señales Informativas (Rutas, Punto de Reunión, Salidas)",
+                    "art": "5.1"
+                },
+                {
+                    "id": "003_2",
+                    "desc": "Señales Informativas de Emergencia (Extintores, Botiquín, Alarma)",
+                    "art": "5.2"
+                },
+                {
+                    "id": "003_3",
+                    "desc": "Señales de Precaución (Riesgo Eléctrico, Piso Mojado)",
+                    "art": "5.3"
+                },
+                {
+                    "id": "003_4",
+                    "desc": "Señales Prohibitivas (No Fumar, No Pasar)",
+                    "art": "5.4"
+                }
+            ]
+        },
+        "NOM-008-SEGOB-2015": {
+            "titulo": "Personas con discapacidad en emergencias",
+            "puntos_revision": [
+                {
+                    "id": "008_1",
+                    "desc": "Procedimiento de alertamiento específico para personas con discapacidad",
+                    "art": "5.2"
+                },
+                {
+                    "id": "008_2",
+                    "desc": "Rutas accesibles y señalización (Visual, Sonora, Táctil)",
+                    "art": "5.4"
+                },
+                {
+                    "id": "008_3",
+                    "desc": "Capacitación a brigadistas para atención a PCD",
+                    "art": "5.6"
+                }
+            ]
+        },
+        "NOM-029-STPS-2011": {
+            "titulo": "Mantenimiento de las instalaciones eléctricas en los centros de trabajo (Condiciones de Seguridad)",
+            "puntos_revision": [
+                {
+                    "id": "029_1",
+                    "desc": "Plan de trabajo para mantenimiento de instalaciones eléctricas (Preventivo/Correctivo)",
+                    "art": "5.4 y 7.1"
+                },
+                {
+                    "id": "029_2",
+                    "desc": "Diagrama unifilar actualizado del inmueble (Coincidente con instalación)",
+                    "art": "5.2 y 7.2"
+                },
+                {
+                    "id": "029_3",
+                    "desc": "Autorización por escrito a trabajadores/proveedores para realizar mantenimiento",
+                    "art": "5.5"
+                },
+                {
+                    "id": "029_4",
+                    "desc": "Equipo de Protección Personal (EPP) y Equipo de Puesta a Tierra temporal",
+                    "art": "5.11 y 12.1"
+                }
+            ]
+        },
+        "NOM-001-SEDE-2012": {
+            "titulo": "Instalaciones Eléctricas (Utilización) - Diseño y Seguridad",
+            "trigger": "always",
+            "puntos_revision": [
+                {
+                    "id": "001_1",
+                    "desc": "Dictamen de Verificación de Instalaciones Eléctricas (UVIE) - VIGENTE",
+                    "art": "4.1 y Título 5"
+                },
+                {
+                    "id": "001_2",
+                    "desc": "Cuadro de Cargas Actualizado y Balanceado",
+                    "art": "Título 3"
+                },
+                {
+                    "id": "001_3",
+                    "desc": "Sistemas de Puesta a Tierra (<25 Ohms) y Pararrayos",
+                    "art": "250-50 y 921-18"
+                }
+            ]
+        },
+        "NOM-022-STPS-2015": {
+            "titulo": "Electricidad estática en los centros de trabajo",
+            "puntos_revision": [
+                {
+                    "id": "022_1",
+                    "desc": "Medición de resistencia de la red de puesta a tierra (Anual)",
+                    "art": "7.2 y 9.1"
+                },
+                {
+                    "id": "022_2",
+                    "desc": "Registro de valores de resistencia de electrodos",
+                    "art": "7.3"
+                }
+            ]
+        },
+        "NOM-030-STPS-2009": {
+            "titulo": "Servicios preventivos de seguridad y salud en el trabajo",
+            "puntos_revision": [
+                {
+                    "id": "030_1",
+                    "desc": "Diagnóstico integral de seguridad y salud en el trabajo",
+                    "art": "4.1 y 6.1"
+                },
+                {
+                    "id": "030_2",
+                    "desc": "Programa de seguridad y salud en el trabajo (Relación de acciones preventivas)",
+                    "art": "4.2 y 7.1"
+                },
+                {
+                    "id": "030_3",
+                    "desc": "Designación de un responsable de seguridad y salud en el trabajo",
+                    "art": "4.1"
+                }
+            ]
+        },
+        "NOM-004-SEDG-2004": {
+            "titulo": "Instalaciones de Gas LP",
+            "trigger": "has_gas",
+            "puntos_revision": [
+                {
+                    "id": "004_1",
+                    "desc": "Dictamen Técnico de Unidad Verificadora (Vigente)",
+                    "art": "Gral"
+                },
+                {
+                    "id": "004_2",
+                    "desc": "Plano isométrico autorizado de instalación de gas",
+                    "art": "Gral"
+                },
+                {
+                    "id": "004_3",
+                    "desc": "Bitácora de mantenimiento a recipientes y tuberías",
+                    "art": "Gral"
+                }
+            ]
+        },
+        "NOM-005-STPS-1998": {
+            "titulo": "Manejo de sustancias químicas peligrosas",
+            "trigger": "has_chemicals",
+            "puntos_revision": [
+                {
+                    "id": "005_1",
+                    "desc": "Inventario de sustancias químicas peligrosas",
+                    "art": "5.2"
+                },
+                {
+                    "id": "005_2",
+                    "desc": "Hojas de Datos de Seguridad (HDS) de cada sustancia",
+                    "art": "5.3"
+                }
+            ]
+        },
+        "NOM-018-STPS-2015": {
+            "titulo": "Sistema Globalmente Armonizado (SGA)",
+            "trigger": "has_chemicals",
+            "puntos_revision": [
+                {
+                    "id": "018_1",
+                    "desc": "Etiquetado de recipientes conforme a SGA (Sistema Armonizado)",
+                    "art": "6.3"
+                },
+                {
+                    "id": "018_2",
+                    "desc": "Capacitación a trabajadores sobre interpretación de HDS y etiquetas",
+                    "art": "6.4"
+                }
+            ]
+        },
+        "NOM-017-STPS-2008": {
+            "titulo": "Equipo de Protección Personal",
+            "puntos_revision": [
+                {
+                    "id": "017_1",
+                    "desc": "Análisis de riesgo para determinación del EPP por puesto",
+                    "art": "5.2"
+                },
+                {
+                    "id": "017_2",
+                    "desc": "Constancia de entrega de EPP a brigadistas y trabajadores",
+                    "art": "5.6"
+                }
+            ]
+        },
+        "NOM-207-SCFI-2018": {
+            "titulo": "Mantenimiento de Elevadores",
+            "trigger": "has_elevators",
+            "puntos_revision": [
+                {
+                    "id": "207_1",
+                    "desc": "Contrato de mantenimiento con empresa certificada",
+                    "art": "Gral"
+                },
+                {
+                    "id": "207_2",
+                    "desc": "Bitácora de servicios y atención de fallas",
+                    "art": "Gral"
+                }
+            ]
+        },
+        "NOM-020-STPS-2011": {
+            "titulo": "Recipientes sujetos a presión",
+            "trigger": "has_pressure",
+            "puntos_revision": [
+                {
+                    "id": "020_1",
+                    "desc": "Aviso/Autorización de funcionamiento de recipientes a presión",
+                    "art": "5.15"
+                },
+                {
+                    "id": "020_2",
+                    "desc": "Pruebas hidrostáticas o no destructivas vigentes",
+                    "art": "12"
+                }
+            ]
+        },
+        "NOM-009-STPS-2011": {
+            "titulo": "Trabajos en Altura",
+            "trigger": "has_heights",
+            "puntos_revision": [
+                {
+                    "id": "009_1",
+                    "desc": "Análisis de riesgo para trabajos en altura",
+                    "art": "5.2"
+                },
+                {
+                    "id": "009_2",
+                    "desc": "Permisos de trabajo para actividades peligrosas",
+                    "art": "5.3"
+                }
+            ]
+        }
+    }
+}

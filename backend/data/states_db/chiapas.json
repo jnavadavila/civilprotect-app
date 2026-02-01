@@ -1,0 +1,31 @@
+{
+    "_meta": {
+        "estado": "Chiapas",
+        "last_updated": "Auto-generado",
+        "auto_populated": true
+    },
+    "state_law": {
+        "ley_nombre": "Ley de Protección Civil del Estado de Chiapas",
+        "art_obligatorio": "Art. Variable",
+        "reglamento_nombre": "Reglamento de la Ley de Protección Civil de Chiapas",
+        "art_reglamento": "Art. Variable"
+    },
+    "municipios": {
+        "San Cristóbal de las Casas": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de San Cristóbal de las Casas",
+            "bando": "Bando de Policía y Gobierno del Municipio de San Cristóbal de las Casas",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-25 02:46:42.436796"
+        },
+        "Palenque": {
+            "reglamento": "Reglamento de Protección Civil del Municipio de Palenque",
+            "bando": "Bando de Policía y Gobierno del Municipio de Palenque",
+            "art_inspeccion": "Art. Fundamento (Facultad de Inspección)",
+            "art_bando": "Orden Público y Convivencia",
+            "_ai_researched": true,
+            "_research_timestamp": "2026-01-26 21:04:22.562758"
+        }
+    }
+}

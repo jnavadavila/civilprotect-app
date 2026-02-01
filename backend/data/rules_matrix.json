@@ -1,0 +1,195 @@
+{
+    "_meta": {
+        "description": "Matriz de Reglas Normativas para Calculadora de Protección Civil",
+        "version": "3.0",
+        "last_updated": "2026-01-24"
+    },
+    "constants": {
+        "M2_PER_EXTINTOR_BAJO_RIESGO": 300,
+        "M2_PER_EXTINTOR_ALTO_RIESGO": 200,
+        "M2_PER_DETECTOR": 80,
+        "WORKERS_PER_BRIGADISTA": 10,
+        "MIN_BRIGADISTAS": 2,
+        "COSTO_CURSO_BRIGADISTA": 850.00,
+        "COSTO_KIT_BRIGADISTA": 650.00
+    },
+    "rules": [
+        {
+            "id": "RULE_EXT_PQS",
+            "category": "Suministro de Equipamiento",
+            "trigger_logic": "always",
+            "calculation_formula": "ceil(m2_construccion / (200 if (m2_construccion > 3000 or tipo_inmueble in ['Industrial', 'Hospital']) else 300))",
+            "min_value_ref": "niveles",
+            "output_item": {
+                "concept_template": "SUMINISTRO: Extintores PQS (Polvo Químico Seco) Cap. 4.5kg con base y señalética",
+                "unit_price": 1100.00,
+                "norma": "NOM-002-STPS"
+            }
+        },
+        {
+            "id": "RULE_CAPACITACION_BASICA",
+            "category": "Capacitación y Adiestramiento",
+            "trigger_logic": "always",
+            "calculation_formula": "ceil(trabajadores / 10)",
+            "output_item": {
+                "concept_template": "Curso de Formación de Brigadas Multifuncionales (PC, Primeros Auxilios, Evacuación)",
+                "unit_price": 3500.00,
+                "norma": "LGPC Art. 44"
+            }
+        },
+        {
+            "id": "RULE_VIATICOS_FORANEOS",
+            "category": "Logística y Viáticos",
+            "trigger_logic": "estado != 'Ciudad de México'",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Viáticos Operativos (Traslado CDMX-Sitio, Hospedaje y Alimentos de Consultores)",
+                "unit_price": 12500.00,
+                "norma": "Logística Interna"
+            }
+        },
+        {
+            "id": "RULE_EXT_K",
+            "category": "Suministro de Equipamiento",
+            "trigger_logic": "has_cocina or tipo_inmueble in ['Restaurante', 'Hotel', 'Hospital']",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "SUMINISTRO: Extintor Clase K (Acetato de Potasio) para Cocina Industrial",
+                "unit_price": 3500.00,
+                "norma": "NOM-002-STPS"
+            }
+        },
+        {
+            "id": "RULE_EXT_CO2",
+            "category": "Suministro de Equipamiento",
+            "trigger_logic": "has_site or tipo_inmueble in ['Oficina corporativa', 'Call center', 'Hotel', 'Hospital']",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "SUMINISTRO: Extintor CO2 para Equipos Eléctricos/Servidores (Site/CCTV)",
+                "unit_price": 2800.00,
+                "norma": "NOM-002-STPS"
+            }
+        },
+        {
+            "id": "RULE_ALBERCA_SIGNS",
+            "category": "Adecuación Civil",
+            "trigger_logic": "has_pool",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "PROYECTO: Reglamento de Alberca y Señalización de Profundidad (Rotulación)",
+                "unit_price": 3500.00,
+                "norma": "NOM-245-SSA1"
+            }
+        },
+        {
+            "id": "RULE_ALBERCA_KIT",
+            "category": "Suministro de Equipamiento",
+            "trigger_logic": "has_pool",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "SUMINISTRO: Kit de Rescate Acuático (Aro Salvavidas, Gancho, Botiquín)",
+                "unit_price": 2800.00,
+                "norma": "Protección Civil"
+            }
+        },
+        {
+            "id": "RULE_CAPACITACION_ACUATICA",
+            "category": "Capacitación y Adiestramiento",
+            "trigger_logic": "has_pool",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Curso Teórico-Práctico de Rescate Acuático y Primeros Auxilios (Certificación Guardavidas)",
+                "unit_price": 5500.00,
+                "norma": "NOM-245-SSA1"
+            }
+        },
+        {
+            "id": "RULE_SPECIAL_INST",
+            "category": "Dictámenes Técnicos",
+            "trigger_logic": "has_special_inst",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Dictamen de Seguridad en Instalaciones Especiales (Gases/Recipientes a Presión)",
+                "unit_price": 8500.00,
+                "norma": "NOM-020-STPS"
+            }
+        },
+        {
+            "id": "RULE_GAS_DICTAMEN",
+            "category": "Dictámenes Técnicos",
+            "trigger_logic": "has_gas",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Dictamen Técnico de Instalaciones de Gas LP (UVIE)",
+                "unit_price": 4500.00,
+                "norma": "NOM-004-SEDG"
+            }
+        },
+        {
+            "id": "RULE_DICTAMEN_ESTRUCTURAL",
+            "category": "Dictámenes Técnicos",
+            "trigger_logic": "niveles >= 3 or m2_construccion >= 500 or (aforo + trabajadores) >= 250",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Dictamen de Seguridad Estructural y Estabilidad (DRO/Corresponsable)",
+                "unit_price": 12000.00,
+                "norma": "Reglamento de Construcciones"
+            }
+        },
+        {
+            "id": "RULE_VISTO_BUENO_ELEC",
+            "category": "Dictámenes Técnicos",
+            "trigger_logic": "always",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Visto Bueno de Seguridad y Operación (Instalaciones Eléctricas Básicas)",
+                "unit_price": 5500.00,
+                "norma": "Reglamento de PC"
+            }
+        },
+        {
+            "id": "RULE_DETECTORES_HUMO",
+            "category": "Suministro de Equipamiento",
+            "trigger_logic": "always",
+            "calculation_formula": "ceil(m2_construccion / 80)",
+            "output_item": {
+                "concept_template": "SUMINISTRO E INSTALACIÓN: Detector de Humo Fotoeléctrico Autónomo",
+                "unit_price": 450.00,
+                "norma": "NOM-002-STPS"
+            }
+        },
+        {
+            "id": "RULE_KIT_BRIGADISTA",
+            "category": "Suministro de Equipamiento",
+            "trigger_logic": "always",
+            "calculation_formula": "ceil(trabajadores / 10)",
+            "output_item": {
+                "concept_template": "SUMINISTRO: Kit de Identificación para Brigadista (Chaleco, Brazalete, Casco, Lentes)",
+                "unit_price": 850.00,
+                "norma": "NOM-017-STPS"
+            }
+        },
+        {
+            "id": "RULE_ELEC_DICTAMEN",
+            "category": "Dictámenes Técnicos",
+            "trigger_logic": "has_substation or has_transformer",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Dictamen de Verificación Eléctrica (UVIE) - Alta Tensión",
+                "unit_price": 15000.00,
+                "norma": "NOM-001-SEDE"
+            }
+        },
+        {
+            "id": "RULE_ESTUDIO_RUIDO",
+            "category": "Dictámenes Técnicos",
+            "trigger_logic": "has_machine_room",
+            "calculation_formula": "1",
+            "output_item": {
+                "concept_template": "Estudio de Niveles Sonoros (Ruido) en Cuarto de Máquinas",
+                "unit_price": 7500.00,
+                "norma": "NOM-011-STPS"
+            }
+        }
+    ]
+}
