@@ -31,8 +31,8 @@ steps:
     - 'JWT_SECRET_KEY=clave_secreta_temporal_para_arranque'
     - '--set-env-vars'
     - 'OPENAI_API_KEY=sk-placeholder-necesitas-cambiarla'
-    - '--port'
-    - '8000'
+    - '--set-env-vars'
+    - 'PYTHONUNBUFFERED=1'
 
 options:
   logging: CLOUD_LOGGING_ONLY
