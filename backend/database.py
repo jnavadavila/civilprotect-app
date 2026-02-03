@@ -118,17 +118,23 @@ def init_db():
     try:
         default_user = db.query(User).filter(User.id == 1).first()
         if not default_user:
+            # Importar aquí para evitar ciclo
+            from auth.hash_handler import hash_password
+            
+            # Password default seguro y VÁLIDO (Debe ser un hash bcrypt)
+            hashed_pw = hash_password("admin123")
+            
             default_user = User(
                 id=1,
                 email="default@civilprotect.local",
                 name="Usuario Sistema",
-                password_hash="temp_hash_change_this",
+                password_hash=hashed_pw,
                 role="admin",
                 is_active=1
             )
             db.add(default_user)
             db.commit()
-            print("[OK] Usuario por defecto creado")
+            print("[OK] Usuario por defecto creado (Email: default@civilprotect.local / Pass: admin123)")
     except Exception as e:
         print(f"[WARN] Error creando usuario por defecto: {e}")
     finally:
