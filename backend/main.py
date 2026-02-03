@@ -167,7 +167,15 @@ allowed_origins_str = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000")
 # origins = [origin.strip() for origin in allowed_origins_str.split(",")]
 
 # [FIX] Relajando CORS para "Modo Emergencia Local"
-origins = ["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:8000"]
+# [FIX] Relajando CORS para "Modo Emergencia Local" y Producción
+origins = [
+    "http://localhost:3000", 
+    "http://127.0.0.1:3000", 
+    "http://localhost:8000",
+    "https://civilprotect-app.web.app",
+    "https://civilprotect-app.firebaseapp.com",
+    "https://civilprotect-backend-707118007645.us-central1.run.app"
+]
 print(f"[SECURITY] CORS configurado para orígenes: {origins}")
 
 app.add_middleware(
