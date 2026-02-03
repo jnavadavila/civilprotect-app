@@ -138,6 +138,16 @@ app = FastAPI(
 # Confiar en los headers del Proxy (Nginx) para obtener la IP real del cliente
 app.add_middleware(ProxyHeadersMiddleware, trusted_hosts="*")
 
+# ==================== STARTUP EVENTS ====================
+from database import init_db
+
+@app.on_event("startup")
+def on_startup():
+    """Inicializar servicios al arrancar"""
+    print("[STARTUP] Inicializando base de datos...")
+    init_db()
+    print("[STARTUP] Base de datos lista.")
+
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     """Middleware para logging estructurado de cada request"""
